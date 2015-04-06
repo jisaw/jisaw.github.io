@@ -1,0 +1,48 @@
+html {
+		font-family: courier;
+		background-color: #5C85AD;
+}
+
+#header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+	background-color: #730000;
+	color: #AAAAAD;
+	padding: 10px;
+	margin: 15px;
+}
+
+#section-header {
+	background-color: #730000;
+	color: #AAAAAD;
+	margin: 30px;
+	padding: 10px;
+}
+
+#section {
+	background-color: #AAAAAD; 
+	color: #730000;
+	padding: 5px;
+	margin: 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	list-style-type: none;
+	color: #AAAAAD;
+}
+
+#main-body {
+	font-weight: normal;
+	text-align: center;
+}
