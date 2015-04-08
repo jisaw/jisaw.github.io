@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Jisaw's GitHub Home</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
+    <style type="text/css">
+#header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+	padding: 10px;
+	margin: 15px;
+	background-color: black;
+}
+
+li {
+	display: inline;
+}
+
+#side-nav {
+	padding: 5px;
+	background-color: #AAAAAD;
+	border-radius: 10px;
+}
+
+    </style>
 </head>
 <body>
-<div id="header">
+<div class="container-fluid">
+<div id="header" class="col-md-12">
 <ul>
 	<li><a href="http://github.com/jisaw">Jisaw @ GitHub</a></li> ~
 	<li>Jisaw's Daily Reads: </li> [
@@ -14,7 +36,22 @@
 	<li><a href="http://news.ycombinator.com">HackerNews</a></li> ]
 </ul>
 </div>
+</div>
 
+<div class="container">
+	<div class="col-xs-4" style="text-align: center;">
+	<br />
+	<div id="side-nav">
+		<h2>__MENU__</h2>
+		<a>My Daily Reading List</a><br />
+		<a>Most Influential Tutorials</a><br />
+		<a>List of Posts</a><br />
+		<a>Other</a><br />
+	</div>
+	</div>
+
+
+<div class="col-xs-8">
 <div id="section-header">
 	<h2>Example Post Title</h2>
 	<div id="section">
@@ -30,6 +67,8 @@
 		
 	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p><p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
 	</div>
+</div>
+</div>
 </div>
 </body>
 </html>
